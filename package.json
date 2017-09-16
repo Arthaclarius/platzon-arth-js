@@ -1,0 +1,30 @@
+{
+  "name": "platzon-arth-js",
+  "version": "0.1.0",
+  "description": "Proyecto de practica para el curso de Fundamentos de Javascript",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthaclarius/platzon-arth-js.git"
+  },
+  "keywords": [
+    "Javascript",
+    "platzi"
+  ],
+  "author": "arthaclarius <sgcg5@hotmail.com> (https://twitter.com/Arthaclarius)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arthaclarius/platzon-arth-js/issues"
+  },
+  "homepage": "https://github.com/Arthaclarius/platzon-arth-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
